@@ -1,0 +1,42 @@
+*{
+    margin: 0px 0px 0px 0px; /*Collage du body sur toutes les bordures*/
+}
+
+body{
+    background-color: rgb(30, 30, 30);
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+
+    width: 100%;
+    height: 80px; /*Taille du header équivalente à celle du logo paramètre*/
+    position: relative; /*Toute les class à l'interieur du header sont limité à la distance du header*/
+    position: fixed;
+}
+
+.menu{
+    position: absolute; /*Inclusion de la class "parametre" dans les limite du header*/
+    float: left;
+    margin-left: 1%;
+    width: 5%;
+}
+
+.title{
+    position: absolute; /*Inclusion de la class "title" dans les limite du header*/
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-size: 300%;
+
+    /*Police d'écriture custom*/
+    font-family: serif;
+    font-style: italic;
+
+    /*ENSEMBLE*/
+    margin-left: 50%; /*Décaler le texte a partir milieux de la page : Horisontalement*/
+    transform: translate(-50%); /*Déduire la moitier de la taille du texte afin d'être centré suyr la page : Horisontalement*/
+    padding-top: 0.5%;
+    /*ENSEMBLE*/
+}
