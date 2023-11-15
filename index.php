@@ -7,11 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <div>
+    <div class="bg-stone-950 bg-contain text-white">
+
         <?php include('components/header.html') ?>
-        <div class="bg-stone-900 bg-contain text-white">
-            <img src="" alt="">
-        </div>
+
+        <p>test 1 2 3..</p> 
+
+        <?php include('components/footer.html') ?>
+
     </div>
 </body>
-</html>
+</html> 
