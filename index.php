@@ -6,7 +6,7 @@
     <title>Portfolio-Accueil</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-orange-50">
     <div class="bg-stone-950 bg-contain text-white">
 
         <?php include('components/header.html') ?>
