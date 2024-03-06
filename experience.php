@@ -29,22 +29,22 @@
 
         <div class="max-w-xl mx-auto my-40">
             <div id="default-carousel" class="relative" data-carousel="static">
-                <div class="overflow-hidden relative h-56 rounded-lg border-2 border-white sm:h-64 xl:h-80 2xl:h-96">
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-
-                        <img src="" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                <div class="overflow-hidden relative  h-56 rounded-lg border-2 border-white sm:h-64 xl:h-80 2xl:h-96">
+                    <div class="flex hidden duration-700 relative ease-in-out" data-carousel-item>
+                        <p class="block absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ratione voluptates rem obcaecati veritatis</p>  
+                        <img src="./assets/img/bateau.jpg" class="block absolute w-1/2 left-2/3 top-1/2 -translate-x-1/2 -translate-y-1/2">
                     </div>
 
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
                         
-                        <img src="" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/bateau.jpg" class="block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a class="justify-center flex" href="detail.php?nom=AvosSoins">Voir plus A</a>
                     </div>
 
                     <div class="hidden duration-700 ease-in-out" data-carousel-item>
 
-                        <img src="" class="block absolute top-1/2 left-1/2 w-full -translate-x-1/2 -translate-y-1/2">
-                        <a class="justify-center flex" href="detail.php?nom=Chantiers">Voir plus C</a>
+                        <img src="./assets/img/bateau.jpg" class="block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <a class="justify-center  flex" href="detail.php?nom=Chantiers">Voir plus C</a>
                     </div>
                 </div>
 

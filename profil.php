@@ -50,29 +50,8 @@
  
 
 
-        <div class="flex justyfy-center my-40 overflow-hidden gap-8
-                    sm:gap-20">
-            <div class="justyfy-center ms-auto sm:w-52 w-auto h-auto mb-10 bg-gray-500/50 border-white border-2 rounded-md p-4">
-            <h1 class="text-center"> Compétences</h1>
-            <ul class="text-left justify-center">
-                    <li>DEBOOKIEZ</li>
-                    <li>FASCINENT</li>
-                    <li>REEGARAIS</li>
-                    <li>DEBOSSEUR</li>
-                    <li>BIPINNEES</li>
-                </ul>
-            </div>
-            
-            <div class="justyfy-center me-auto sm:w-52 w-auto h-auto mb-10 bg-gray-500/50 border-white border-2 rounded-md p-4">
-                <h1 class="text-center">Passion</h1>
-                <ul class="text-left justify-center">
-                    <li>DEBOOKIEZ</li>
-                    <li>FASCINENT</li>
-                    <li>REEGARAIS</li>
-                    <li>DEBOSSEUR</li>
-                    <li>BIPINNEES</li>
-                </ul>
-            </div>
+        <div class="flex justyfy-center my-40 overflow-hidden">
+            <!-- Mise en place des jauges de mes compétence -->
         </div>
 
         <div class="flex justify-center items-center my-40">
