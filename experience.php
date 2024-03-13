@@ -27,31 +27,37 @@
             </div>
         </div>
 
-        <div class="max-w-xl mx-auto my-40">
+        <div class="mx-auto bg-red-500">
+            <p>projets</p>
+        </div>
+            
+        <div class="max-w-xl mx-auto my-20">
             <div id="default-carousel" class="relative" data-carousel="static">
-                <div class="overflow-hidden relative  h-56 rounded-lg border-2 border-white sm:h-64 xl:h-80 2xl:h-96">
-                    <div class="flex hidden duration-700 relative ease-in-out" data-carousel-item>
-                        <p class="block absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore ratione voluptates rem obcaecati veritatis</p>  
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-1/2 left-2/3 top-1/2 -translate-x-1/2 -translate-y-1/2">
+                <div class="overflow-hidden relative h-56 rounded-lg border-2 border-white hover:border-sky-700 sm:h-64 xl:h-80 2xl:h-96">
+                    
+                    <div class="flex duration-700 ease-in-out" data-carousel-item>
+                        <a href="detail.php?nom=AvosSoins"><img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></a>
+                        <a href="detail.php?nom=AvosSoins" class="mx-auto mt-80 z-0 ">test 123 123 123</a>   
+                    </div>
+                    
+                    <div class="flex duration-700 ease-in-out" data-carousel-item>
+                        <a href="detail.php?nom=AvosSoins"><img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></a>
+                        <a href="detail.php?nom=AvosSoins" class="mx-auto mt-80 z-0 ">test 123 123 123</a>   
                     </div>
 
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-                        
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        <a class="justify-center flex" href="detail.php?nom=AvosSoins">Voir plus A</a>
+                    <div class="flex duration-700 ease-in-out" data-carousel-item>
+                        <a href="detail.php?nom=AvosSoins"><img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"></a>
+                        <a href="detail.php?nom=AvosSoins" class="mx-auto mt-80 z-0 ">test 123 123 123</a>   
                     </div>
 
-                    <div class="hidden duration-700 ease-in-out" data-carousel-item>
-
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-                        <a class="justify-center  flex" href="detail.php?nom=Chantiers">Voir plus C</a>
-                    </div>
                 </div>
 
                 <div class="flex absolute bottom-5 left-1/2 z-30 sapce-x-3 -translate-x-1/2">
                     <button class="w-3 h-3 rounded-md" aria-current="false" aria-label="Slide-1" data-carousel-slite-to="0"></button>
                     <button class="w-3 h-3 rounded-md" aria-current="false" aria-label="Slide-2" data-carousel-slite-to="1"></button>
                     <button class="w-3 h-3 rounded-md" aria-current="false" aria-label="Slide-3" data-carousel-slite-to="2"></button>
+                    <button class="w-3 h-3 rounded-md" aria-current="false" aria-label="Slide-3" data-carousel-slite-to="3"></button>
+
                 </div>
 
                 <button type="button" class="flex absolute top-0 left-0 z-30 justify-center

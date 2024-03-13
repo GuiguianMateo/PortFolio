@@ -23,7 +23,7 @@
         }
     ?>
     <div>
-        <p>Bonsoir je vous présente l'<?php echo $type," ",$nom;?> </p>
+        <p>Bonsoir je vous présente l'<?php echo $type . " " . $nom ?> </p>
     </div>
 
     <?php include('components/footer.html') ?>
