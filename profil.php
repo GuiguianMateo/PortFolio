@@ -27,7 +27,7 @@
         </div>
 
         <div class="flex justify-center my-40 pb-10 gap-20">
-            <div class="border border-sky-700"></div>
+            <div class="border border-sky-700 hidden sm:block"></div>
             <ul class="list-none border-2 border-blue-1500">
                 <li class="p-5 relative cursor-pointer hover:bg-gray-500/50">
                     <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Avril 2018</span>
@@ -73,71 +73,62 @@
  
 
 
-        <div class="justyfy-center my-40 overflow-hidden">
-            <p class="text-center text-3xl">Connaissances</p>
-            <div class="flex gap-32 justify-center mt-32">
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
+        <section class="w-fit mx-auto grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-8 md:gap-32 mt-10 mb-5">
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/html.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
-
-            <div class="flex gap-32 justify-center mt-32">
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/css-3.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
-
-            <div class="lg:flex justify-center gap-8 xl:gap-32 mt-12 lg:mt-32">
-                <div class="flex xl:float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex xl:float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
-                </div>
-                <div class="flex xl:float-left gap-6">
-                    <img class="my-auto" src="./assets/img/github.png">
-                    <div class="my-auto border-white rounded-md border-2 h-4 w-64">
-                        <div class="w-1/2 bg-red-500"></div>
-                    </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/laravel.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
-        </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/js.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/python.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/csharp.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/java.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/wordpress.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>
+            <div class="flex gap-6">
+                <img class="my-auto" src="./assets/img/serveur-sql.png">
+                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                    <div class="w-1/2 bg-red-500"></div>
+                </div>
+            </div>                
+        </section>
 
         <div class="flex justify-center items-center my-40">
             <div class="hover:translate-y-2 hover:duration-300 ease-in-out">
