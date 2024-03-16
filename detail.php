@@ -12,18 +12,14 @@
 
     <?php
         $nom = $_REQUEST['nom'];
-        $type = ""; 
-
+        
         if($nom == "Chantiers"){
             $nom = "Chantiers de l'atlantique";
             $type = "entreprise";
-        } elseif($nom == "AvosSoins"){
-            $nom = "A vos Soins";
-            $type = "assossiation";
         }
     ?>
     <div>
-        <p>Bonsoir je vous présente l'<?php echo $type . " " . $nom ?> </p>
+        <p>Bonsoir je vous présente<?php echo " ". $nom ?> </p>
     </div>
 
     <?php include('components/footer.html') ?>

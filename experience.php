@@ -29,41 +29,131 @@
             </div>
         </section>
 
-        <div class="mx-auto bg-red-500">
+        <div class="flex justify-center bg-red-500">
             <p>projets</p>
         </div>
+
+        <section class="w-fit mx-auto my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 md:gap-20">
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">Formulaire Validation</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-red-500 rounded">Html</p>
+                        <p class="text-center bg-blue-500 rounded">Css</p>
+                        <p class="text-center bg-yellow-500 rounded">Java Script</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=FormJs" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+   
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">ChatDevops</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-red-500 rounded">Html</p>
+                        <p class="text-center bg-blue-500 rounded">Css</p>
+                        <p class="text-center bg-yellow-500 rounded">Java Script</p>
+                        <p class="text-center bg-red-500 rounded">php/Laravel</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=ChatDevops" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">MégaCasting</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-purple-500 rounded">C#</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=MegaCasting" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">EventApp</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-red-500 rounded">Html</p>
+                        <p class="text-center bg-blue-500 rounded">Css</p>
+                        <p class="text-center bg-green-500 rounded">Django/Python</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">Marsoins</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-sky-950 rounded">Java Android</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=Marsoins" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="mx-auto">
+                <div class="border-white border-2 rounded">
+                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2">CMS Gestion</p>
+                    <p class="ml-2">Description</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center bg-red-500 rounded">Html</p>
+                        <p class="text-center bg-blue-500 rounded">Css</p>
+                        <p class="text-center bg-red-500 rounded">php/Laravel</p>
+
+                    </div>
+                </div>
+                <a href="detail.php?nom=CmsGestion" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+            </div>
+        </section>
             
-        <div class="max-w-xl mx-auto my-20">
+        <!-- <div class="max-w-xl mx-auto my-20">
             <div id="default-carousel" class="relative" data-carousel="static">
-                <div class="overflow-hidden relative h-56 rounded-lg border-2 border-white hover:border-sky-700 sm:h-64 xl:h-80 2xl:h-96">
+                <div class="overflow-hidden relative h-96  rounded-lg border-2 border-white hover:border-sky-700">
                     
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/FormJS.png" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.png" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=FormJS" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=ChatDevops" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=MegaCasting" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=EventApp" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=Marsoins" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=CmsGestion" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
@@ -102,7 +192,7 @@
                     </span>
                 </button>
             </div>
-        </div>
+        </div> -->
         <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
     </div>
 
