@@ -29,16 +29,16 @@
             </div>
         </section>
 
-        <div class="flex justify-center bg-red-500">
+        <div id="project" class="flex justify-center bg-red-500">
             <p>projets</p>
         </div>
 
         <section class="w-fit mx-auto my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 md:gap-20">
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-2 rounded">
                     <img class="my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">Formulaire Validation</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Formulaire de validation complet</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-red-500 rounded">Html</p>
@@ -46,14 +46,14 @@
                         <p class="text-center bg-yellow-500 rounded">Java Script</p>
                     </div>
                 </div>
-                <a href="detail.php?nom=FormJs" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=FormJs" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
    
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-2 rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">ChatDevops</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Chat public en direct avec une protection contre les cyber-attaques</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-red-500 rounded">Html</p>
@@ -62,27 +62,27 @@
                         <p class="text-center bg-red-500 rounded">php/Laravel</p>
                     </div>
                 </div>
-                <a href="detail.php?nom=ChatDevops" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=ChatDevops" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-2 rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">MégaCasting</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Application lourd pour la gestion et la création de casting</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-purple-500 rounded">C#</p>
                     </div>
                 </div>
-                <a href="detail.php?nom=MegaCasting" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=MegaCasting" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-2 rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">EventApp</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Application intener pour l'aide à la gestion de séminaire pour la "Communication"</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-red-500 rounded">Html</p>
@@ -90,27 +90,27 @@
                         <p class="text-center bg-green-500 rounded">Django/Python</p>
                     </div>
                 </div>
-                <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-white border-2 rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">Marsoins</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Application mobile qui centralise leurs actions et les manipules</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-sky-950 rounded">Java Android</p>
                     </div>
                 </div>
-                <a href="detail.php?nom=Marsoins" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=Marsoins" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto">
-                <div class="border-white border-2 rounded">
+            <div class="mx-auto duration-300">
+                <div class="max-w-80 border-white border-2 rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2">CMS Gestion</p>
-                    <p class="ml-2">Description</p>
+                    <p class="ml-2">Application web permettant la gestion d'un site</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center bg-red-500 rounded">Html</p>
@@ -119,7 +119,7 @@
 
                     </div>
                 </div>
-                <a href="detail.php?nom=CmsGestion" class="flex justify-center text-gray-500/50 hover:text-white">Voir plus</a>
+                <a href="detail.php?nom=CmsGestion" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
         </section>
             

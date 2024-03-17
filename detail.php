@@ -10,19 +10,41 @@
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
+    <div>
+        <a href="experience.php#project">Back</a>
+    </div>
+
     <?php
         $nom = $_REQUEST['nom'];
         
-        if($nom == "Chantiers"){
-            $nom = "Chantiers de l'atlantique";
-            $type = "entreprise";
+        if($nom == "FormJs"){
+        ?>
+            <p>FormJs</p>
+        <?php       
+        }elseif($nom == "ChatDevops"){
+        ?>
+            <p>Chat dev</p>
+        <?php
+        }elseif($nom == "MegaCasting"){
+        ?>
+            <p>casting</p>
+        <?php
+        }elseif($nom == "EventApp"){
+        ?>
+            <p>eventapp</p>
+        <?php
+        }elseif($nom == "Marsoins"){
+        ?>
+            <p>maroins</p>
+        <?php
+        }elseif($nom == "CmsGestion"){
+        ?>
+            <p>maroins</p>
+        <?php
         }
     ?>
-    <div>
-        <p>Bonsoir je vous présente<?php echo " ". $nom ?> </p>
-    </div>
 
     <?php include('components/footer.html') ?>
 
 </body>
-</html>
+</html> 
