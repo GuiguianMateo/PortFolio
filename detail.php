@@ -17,34 +17,84 @@
     <?php
         $nom = $_REQUEST['nom'];
         
-        if($nom == "FormJs"){
+        if($nom == "EventApp"){
         ?>
-            <p>FormJs</p>
-        <?php       
-        }elseif($nom == "ChatDevops"){
-        ?>
-            <p>Chat dev</p>
-        <?php
-        }elseif($nom == "MegaCasting"){
-        ?>
-            <p>casting</p>
-        <?php
-        }elseif($nom == "EventApp"){
-        ?>
-            <div class="">
-                <p class="text-center text-5xl text-white">Event-App</p>
-                <div class="">
-
+            <p class="text-center text-5xl font-semibold my-20">Event-App</p>
+            <div>
+                <div class="ml-40">
+                    <p>Context</p>
+                    <div class="flex">
+                        <p class="max-w-5xl border border-white rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
+                           Etant une grosse société comportant plus de 3500 employers en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employers et notamment pour des croisières sur plusieurs jours.
+                           Utilisant Excel comme support pour stocker des données sur les séminaires, la création de cette application m'a donc été destiné.
+                        </p>
+                        <img class="my-auto m-5 w-20 h-20" src="./assets/img/django.png">                        
+                        <img class="my-auto m-5 w-20 h-20" src="./assets/img/django.png">                        
+                    </div>
                 </div>
+
+                <div>
+                    <p>Missions</p>
+                    <div>
+                        <p>Développement</p>
+                        <img src="">                        
+                    </div>
+                </div>
+
+                <div>
+                    <p>Outils utilisés</p>
+                    <div>
+                        <p>Développement</p>
+                        <img src="">                        
+                    </div>
+                </div>
+
+                <div>
+                    <p>Réalisation</p>
+                    <div>
+                        <p>Développement</p>
+                        <img src="">                        
+                    </div>
+                </div>
+
+                <div>
+                    <p>Goût du jour</p>
+                    <div>
+                        <p>Développement</p>
+                        <img src="">                        
+                    </div>
+                </div>
+
             </div>
-        <?php
-        }elseif($nom == "Marsoins"){
-        ?>
-            <p>maroins</p>
-        <?php
+        <?php  
         }elseif($nom == "CmsGestion"){
         ?>
             <p>CmsGestion</p>
+
+        <?php    
+
+        }elseif($nom == "Marsoins"){
+        ?>
+            <p>maroins</p>
+
+        <?php
+
+        }elseif($nom == "ChatDevops"){
+        ?>
+            <p>Chat dev</p>
+
+        <?php
+
+        }elseif($nom == "MegaCasting"){
+        ?>
+            <p>casting</p>
+
+        <?php
+
+        }elseif($nom == "FormJs"){
+        ?>
+            <p>FormJs</p>
+
         <?php
         }
     ?>

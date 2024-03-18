@@ -76,55 +76,55 @@
         <section class="w-fit mx-auto grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-8 md:gap-32 mt-10 mb-5">
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/html.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/css-3.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/laravel.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/js.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/python.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/csharp.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/java.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/wordpress.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/serveur-sql.png">
-                <div class="my-auto border-white rounded-md border-2 h-4 w-64">
+                <div class="my-auto rounded-md border h-4 w-64">
                     <div class="w-1/2 bg-red-500"></div>
                 </div>
             </div>                
