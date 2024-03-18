@@ -30,11 +30,21 @@
             <div class="border border-sky-700 hidden sm:block"></div>
             <ul class="list-none border-2 border-blue-1500">
                 <li class="p-5 relative cursor-pointer hover:bg-gray-500/50">
-                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Avril 2018</span>
+                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Juin 2024</span>
                     <div class="content">
-                        <h3 class="color-blue-500 text-lg pt-1.5">PSC1</h3>
+                        <h3 class="color-blue-500 text-lg pt-1.5">Preparation BTS</h3>
                         <p class="pt-1.5 pb-4 text-lg">
-                            Obtention de ma certification à la formation du PSC1.
+                            Préparation aux épreuves du BTS SIO option SLAM.
+                        </p>
+                    </div>
+                </li>
+                
+                <li class="p-5 relative cursor-pointer hover:bg-gray-500/50">
+                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Juin 2022</span>
+                    <div class="content">
+                        <h3 class="color-blue-500 text-lg pt-1.5">Baccalauréat</h3>
+                        <p class="pt-1.5 pb-4 text-lg">
+                            Titulaire du Bac STI2D avec mention.
                         </p>
                     </div>
                 </li>
@@ -50,21 +60,11 @@
                 </li>
 
                 <li class="p-5 relative cursor-pointer hover:bg-gray-500/50">
-                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Juin 2022</span>
+                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Avril 2018</span>
                     <div class="content">
-                        <h3 class="color-blue-500 text-lg pt-1.5">Baccalauréat</h3>
+                        <h3 class="color-blue-500 text-lg pt-1.5">PSC1</h3>
                         <p class="pt-1.5 pb-4 text-lg">
-                            Titulaire du Bac STI2D avec mention.
-                        </p>
-                    </div>
-                </li>
-
-                <li class="p-5 relative cursor-pointer hover:bg-gray-500/50">
-                    <span class="display-block bg-sky-800 rounded-3xl px-0.5 py-1.5 text-base align-center">Juin 2024</span>
-                    <div class="content">
-                        <h3 class="color-blue-500 text-lg pt-1.5">Preparation BTS</h3>
-                        <p class="pt-1.5 pb-4 text-lg">
-                            Préparation aux épreuves du BTS SIO option SLAM.
+                            Obtention de ma certification à la formation du PSC1.
                         </p>
                     </div>
                 </li>

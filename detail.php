@@ -10,8 +10,8 @@
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
-    <div>
-        <a href="experience.php#project">Back</a>
+    <div class="text-sm m-5 md:text-lg">
+        <a href="experience.php#project" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Retour</a>
     </div>
 
     <?php
@@ -31,7 +31,12 @@
         <?php
         }elseif($nom == "EventApp"){
         ?>
-            <p>eventapp</p>
+            <div class="">
+                <p class="text-center text-5xl text-white">Event-App</p>
+                <div class="">
+
+                </div>
+            </div>
         <?php
         }elseif($nom == "Marsoins"){
         ?>
@@ -39,7 +44,7 @@
         <?php
         }elseif($nom == "CmsGestion"){
         ?>
-            <p>maroins</p>
+            <p>CmsGestion</p>
         <?php
         }
     ?>
