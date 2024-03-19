@@ -19,15 +19,16 @@
         
         if($nom == "EventApp"){
         ?>
+
             <p class="text-center text-5xl font-semibold my-20">Event-App</p>
-            <section class="w-fit mx-auto grid grid-cols-1 gap-8 md:gap-20">
+            <section class="w-fit mx-auto grid grid-cols-1 gap-8 md:gap-28">
                 <div>
                     <p class="text-3xl m-5">Context</p>
                     <div class="xl:flex gap-6">
                         <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en <b>stage au Chantiers de l'Atlantique</b> à St Nazaire.
                            Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers <b>organise des séminaires pour leurs employés</b>, notamment des croisières.
                         </p>
-                        <img class="m-auto w-80" src="./assets/img/chantiers-logo.png">                                               
+                        <img class="mx-auto my-5 w-80" src="./assets/img/chantiers-logo.png">                                               
                     </div>
                 </div>
 
@@ -35,58 +36,63 @@
                     <p class="text-3xl m-5">Missions</p>
                     <div class="xl:flex gap-40">
                         <img class="w-96" src="./assets/img/trello.png">
-                        <ul class="max-w-4xl m-auto text-lg list-disc">
+                        <ol class="max-w-4xl mx-auto my-5 pl-8 xl:pl-0 text-lg list-decimal">
                             <li>Formation sur Django Python</li>
-                            <li>Création d'une Base de Donné</li>
+                            <li>Création d'une Base de Données</li>
                             <li>Mise en place d'une authentification</li>
-                            <li>Ajout de rôles (Admin / COM / Employé)</li>
-                            <li>Réalisation du CRUD pour les Employés / Groupes / Evenements</li>
-                            <li>fref</li>
-                            <li>fref</li>
-                        </ul>
-                                                
+                            <li>Ajout de rôles (Admin / COM / Gestionaires)</li>
+                            <li>Création de maquettes</li>
+                            <li>Réalisation du CRUD pour les Invités / Groupes / Evenements</li>
+                            <li>Mise en place du css -> Maquettes</li>
+                        </ol>       
                     </div>
                 </div>
 
                 <div>
                     <p class="text-3xl m-5">Outils utilisés</p>
                     <div class="xl:flex">
-                        <ul class="max-w-4xl m-auto text-lg list-disc">
+                        <ul class="max-w-4xl mx-auto my-5 xl:my-auto pl-8 xl:pl-0 text-lg list-disc">
                             <li>Laguage: Python</li>
                             <li>FrameWork: Django</li>
                             <li>Base de Donné: PostgreSQL</li>
                         </ul>
-                        <img class="m-auto w-40" src="./assets/img/django.png">                        
-                        <img class="m-auto w-40" src="./assets/img/postgresql.png">                      
+                        <img class="mx-auto xl:my-auto my-5 w-40" src="./assets/img/django.png">                        
+                        <img class="mx-auto xl:my-auto my-5 w-40" src="./assets/img/postgresql.png">                      
                     </div>
                 </div>
 
                 <div>
                     <p class="text-3xl m-5">Réalisation</p>
-                    <div class="xl:flex">
-                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
-                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employés et notamment pour des croisières sur plusieurs jours.
-                           Utilisant Excel comme support pour stocker des données sur les séminaires, la création de cette application m'a donc été destiné.
-                        </p>
-                        <img class="m-auto w-40" src="./assets/img/django.png">                        
+                    <div class="xl:flex gap-40">
+                        <img class="w-96" src="./assets/img/umlet.png">
+                        <ul class="max-w-4xl mx-auto xl:my-auto my-5 pl-8 xl:pl-0 text-lg list-disc">
+                            <li>Mission 1: </li>
+                            <li>Mission 2: </li>
+                            <li>Mission 3: </li>
+                            <li>Mission 4: </li>
+                            <li>Mission 5: </li>
+                            <li>Mission 6: </li>
+                            <li>Mission 7: </li>
+                        </ul>
                     </div>
                 </div>
 
                 <div>
-                    <p class="text-3xl m-5">Goût du jour</p>
+                    <p class="text-3xl m-5">Bilan</p>
                     <div class="xl:flex">
-                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
-                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employés et notamment pour des croisières sur plusieurs jours.
-                           Utilisant Excel comme support pour stocker des données sur les séminaires, la création de cette application m'a donc été destiné.
+                        <p class="max-w-4xl text-lg border rounded p-2">Sur ce stage de 7 semaine je n'ai pas pu terminer mon developpement, aujoud'hui l'application à été reprise par une autre sociétée, je n'ai donc pas la version final du projet.
+                            D'après mon avancer dans le projet ainsi que les fonctionalitées ajouter, mon maître de stage était satisfait de mon travail et rentrait dans ses attentes.  
                         </p>
                     </div>
                 </div>
-
             </div>
+
         <?php  
         }elseif($nom == "CmsGestion"){
         ?>
+
             <p>CmsGestion</p>
+
 
         <?php    
 
