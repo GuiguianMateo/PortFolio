@@ -34,7 +34,7 @@
         </div>
 
         <section class="w-fit mx-auto my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 md:gap-20">
-            <div class="mx-auto duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
                     <img class="mx-auto my-2" src="./assets/img/chantiers.png">
                     <p class="flex justify-center my-2 text-xl">EventApp</p>
@@ -49,7 +49,8 @@
                 <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto duration-300">
+            <div class="mx-
+             duration-300">
                 <div class="max-w-80 border rounded">
                     <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">CMS Gestion</p>

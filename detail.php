@@ -20,48 +20,65 @@
         if($nom == "EventApp"){
         ?>
             <p class="text-center text-5xl font-semibold my-20">Event-App</p>
-            <div>
-                <div class="ml-40">
-                    <p>Context</p>
-                    <div class="flex">
-                        <p class="max-w-5xl border border-white rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
-                           Etant une grosse société comportant plus de 3500 employers en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employers et notamment pour des croisières sur plusieurs jours.
+            <section class="w-fit mx-auto grid grid-cols-1 gap-8 md:gap-20">
+                <div>
+                    <p class="text-3xl m-5">Context</p>
+                    <div class="xl:flex gap-6">
+                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en <b>stage au Chantiers de l'Atlantique</b> à St Nazaire.
+                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers <b>organise des séminaires pour leurs employés</b>, notamment des croisières.
+                        </p>
+                        <img class="m-auto w-80" src="./assets/img/chantiers-logo.png">                                               
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-3xl m-5">Missions</p>
+                    <div class="xl:flex gap-40">
+                        <img class="w-96" src="./assets/img/trello.png">
+                        <ul class="max-w-4xl m-auto text-lg list-disc">
+                            <li>Formation sur Django Python</li>
+                            <li>Création d'une Base de Donné</li>
+                            <li>Mise en place d'une authentification</li>
+                            <li>Ajout de rôles (Admin / COM / Employé)</li>
+                            <li>Réalisation du CRUD pour les Employés / Groupes / Evenements</li>
+                            <li>fref</li>
+                            <li>fref</li>
+                        </ul>
+                                                
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-3xl m-5">Outils utilisés</p>
+                    <div class="xl:flex">
+                        <ul class="max-w-4xl m-auto text-lg list-disc">
+                            <li>Laguage: Python</li>
+                            <li>FrameWork: Django</li>
+                            <li>Base de Donné: PostgreSQL</li>
+                        </ul>
+                        <img class="m-auto w-40" src="./assets/img/django.png">                        
+                        <img class="m-auto w-40" src="./assets/img/postgresql.png">                      
+                    </div>
+                </div>
+
+                <div>
+                    <p class="text-3xl m-5">Réalisation</p>
+                    <div class="xl:flex">
+                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
+                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employés et notamment pour des croisières sur plusieurs jours.
                            Utilisant Excel comme support pour stocker des données sur les séminaires, la création de cette application m'a donc été destiné.
                         </p>
-                        <img class="my-auto m-5 w-20 h-20" src="./assets/img/django.png">                        
-                        <img class="my-auto m-5 w-20 h-20" src="./assets/img/django.png">                        
+                        <img class="m-auto w-40" src="./assets/img/django.png">                        
                     </div>
                 </div>
 
                 <div>
-                    <p>Missions</p>
-                    <div>
-                        <p>Développement</p>
-                        <img src="">                        
-                    </div>
-                </div>
-
-                <div>
-                    <p>Outils utilisés</p>
-                    <div>
-                        <p>Développement</p>
-                        <img src="">                        
-                    </div>
-                </div>
-
-                <div>
-                    <p>Réalisation</p>
-                    <div>
-                        <p>Développement</p>
-                        <img src="">                        
-                    </div>
-                </div>
-
-                <div>
-                    <p>Goût du jour</p>
-                    <div>
-                        <p>Développement</p>
-                        <img src="">                        
+                    <p class="text-3xl m-5">Goût du jour</p>
+                    <div class="xl:flex">
+                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en stage au Chantiers de l'Atlantique à St Nazaire pour 7 semaines.
+                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers organise des séminaires pour leurs employés et notamment pour des croisières sur plusieurs jours.
+                           Utilisant Excel comme support pour stocker des données sur les séminaires, la création de cette application m'a donc été destiné.
+                        </p>
                     </div>
                 </div>
 
