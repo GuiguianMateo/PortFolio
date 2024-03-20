@@ -150,8 +150,8 @@
                 <div>
                     <p class="text-3xl m-5">Bilan</p>
                     <div class="xl:flex mb-20">
-                        <p class="max-w-4xl text-lg border rounded p-2">Avec les conditions données, le projet est actuellement terminé. 
-                            Avec une durée totale de 3 mois réalisée par période, il a également fallu que nous réussissions les évaluations précédentes, car elles servaient de support pour les suivantes. 
+                        <p class="max-w-4xl text-lg border rounded p-2">Avec les conditions données, le projet est actuellement terminé, avec une durée totale de 3 mois réalisée par période. 
+                            Pour chaque nouvelle évaluation, nous utilisions la version finie de la précédente, de plus si cette dernière n'était pas terminée dans les temps, nous devions la finaliser avant la prochaine évaluation.
                         </p>
                     </div>
                 </div>

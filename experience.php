@@ -10,6 +10,10 @@
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
+    <div id="project" class="text-center my-40 text-5xl font-semibold">
+            <p>Expériences Professionelles</p>
+    </div>
+
     <div>
         <section class="mx-auto grid grid-cols-1 md:grid-cols-2 my-40 gap-20 md:gap-0">
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
@@ -21,8 +25,8 @@
             
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                 <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                <p>L'année suivante, durant 2 mois et demi j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage sur la Baule. 
-                    Ayant une très bonne réputation, ils ont en partenariat avec le cinéma de la Baule et accueil pendant 1 semaine plusieurs acteurs / réalisateur connu en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres.</p> 
+                <p>L'année suivante, durant 2 mois et demi j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                    Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueil pendant 1 semaine plusieurs acteurs / réalisateurs connu en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres.</p> 
             </div>
         </section>
 

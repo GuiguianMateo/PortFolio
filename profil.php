@@ -23,9 +23,8 @@
                     my-40 p-12 w-4/6 mx-auto">
                     
             <img src="assets/img/way.png" class="float-left my-auto mr-8">
-            <p>Mon parcours éducatif a débuté au collège La fontaine à Missillac où j'ai exploré diverses matières. Réalisant ma seconde à Savenay en générale, je me suis dirigé au lycée Aristide Briand pour passer en Bac techno STI2D,
-                 j'ai approfondi mes connaissances, notamment dans les matières scientifiques. Actuellement étudiant en 2ème années au campus IIA à St Nazaire,
-                 je me spécialise en développement informatique. Chaque étape m'a permis de grandir académiquement et personnellement, nourrissant ma passion pour l'apprentissage.</p>
+            <p>Mon parcours éducatif a débuté au collège La fontaine à Missillac où j'ai exploré diverses matières. Réalisant ma seconde générale à Savenay, je me suis dirigé au lycée Aristide Briand à St Nazaire pour passer en Bac techno STI2D,
+                 j'ai approfondi mes connaissances, notamment dans les matières scientifiques. Actuellement étudiant en 2ème années de BTS SIO au campus IIA à St Nazaire, je me spécialise en développement informatique.</p>
         </div>
 
         <div class="flex justify-center my-40 pb-10 gap-20">
