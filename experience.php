@@ -36,7 +36,7 @@
         <section class="w-fit mx-auto my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 md:gap-20">
             <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="mx-auto my-2" src="./assets/img/chantiers.png">
+                    <img class="m-auto" src="./assets/img/chantiers.png">
                     <p class="flex justify-center my-2 text-xl">EventApp</p>
                     <p class="ml-2">Application intener pour l'aide à la gestion de séminaire pour la "Communication"</p>
                     <hr>
@@ -49,10 +49,9 @@
                 <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-
-             duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/laravelcms.png">
                     <p class="flex justify-center my-2 text-xl">CMS Gestion</p>
                     <p class="ml-2">Application web permettant la gestion d'un site</p>
                     <hr>
@@ -66,9 +65,9 @@
                 <a href="detail.php?nom=CmsGestion" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
                         
-            <div class="mx-auto duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">Marsoins</p>
                     <p class="ml-2">Application mobile qui centralise leurs actions et les manipules</p>
                     <hr>
@@ -79,9 +78,9 @@
                 <a href="detail.php?nom=Marsoins" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
    
-            <div class="mx-auto duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">ChatDevops</p>
                     <p class="ml-2">Chat public en direct avec une protection contre les cyber-attaques</p>
                     <hr>
@@ -95,9 +94,9 @@
                 <a href="detail.php?nom=ChatDevops" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
             </div>
 
-            <div class="mx-auto duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="mx-auto my-2" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">MégaCasting</p>
                     <p class="ml-2">Application lourd pour la gestion et la création de casting</p>
                     <hr>
@@ -109,9 +108,9 @@
             </div>
 
             
-            <div class="mx-auto duration-300">
+            <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="my-2" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">Formulaire Validation</p>
                     <p class="ml-2">Formulaire de validation complet</p>
                     <hr>
