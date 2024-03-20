@@ -11,21 +11,18 @@
     <?php include('components/header.html') ?>
 
     <div>
-        <div class="my-40">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laboriosam officia, totam dolorum magni ipsam voluptatum, adipisci necessitatibus consectetur veritatis beatae provident sint. Laboriosam necessitatibus asperiores numquam commodi vitae sit.</p>
-        </div>
-
         <section class="mx-auto grid grid-cols-1 md:grid-cols-2 my-40 gap-20 md:gap-0">
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                 <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
-                <p>Le relais du Duc d'Aiguillon une crèperie coté dans le centre du croisic, j'y ai travailler durant toute la saison d'été precédent mon BTS (2022).
-                   Durant cette periode j'ai pu établir mon propre rapport à la clientelle, "En gros il me donnais des truc à faire et je trouvais le meilleurs moyens d'accèder à leurs requete + mise dans une bonne situation/à l'aise"
+                <p>Le relais du Duc d'Aiguillon est une crèperie cotée dans le centre du croisic, j'y ai travaillé durant toute la saison d'été precédent mon BTS (2022).
+                   Durant cette période j'ai pû établir ma propre approche à la clientelle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire son besoins
                 </p> 
             </div>
             
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                 <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta similique quia fuga nihil vel quae assumenda nesciunt doloribus, nobis aspernatur nulla? Ex, rem odit odio quidem quae minima voluptatem neque.</p> 
+                <p>L'année suivante, durant 2 mois et demi j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage sur la Baule. 
+                    Ayant une très bonne réputation, ils ont en partenariat avec le cinéma de la Baule et accueil pendant 1 semaine plusieurs acteurs / réalisateur connu en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres.</p> 
             </div>
         </section>
 
@@ -38,7 +35,7 @@
                 <div class="max-w-80 border rounded">
                     <img class="m-auto" src="./assets/img/chantiers.png">
                     <p class="flex justify-center my-2 text-xl">EventApp</p>
-                    <p class="ml-2">Application intener pour l'aide à la gestion de séminaire pour la "Communication"</p>
+                    <p class="ml-2">Application intene pour l'aide à la gestion de séminaire pour la "Communication"</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center text-md font-bold p-1 ml-2 bg-red-500 rounded">Html</p>
@@ -69,7 +66,7 @@
                 <div class="max-w-80 border rounded">
                     <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">Marsoins</p>
-                    <p class="ml-2">Application mobile qui centralise leurs actions et les manipules</p>
+                    <p class="ml-2">Application mobile qui centralise des actions et les manipule</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center text-md font-bold p-1 ml-2 bg-sky-950 rounded">Java Android</p>
@@ -98,7 +95,7 @@
                 <div class="max-w-80 border rounded">
                     <img class="m-auto" src="./assets/img/bateau.jpg">
                     <p class="flex justify-center my-2 text-xl">MégaCasting</p>
-                    <p class="ml-2">Application lourd pour la gestion et la création de casting</p>
+                    <p class="ml-2">Application lourde pour la gestion et la création de casting</p>
                     <hr>
                     <div class="flex justify-start gap-4 my-2">
                         <p class="text-center text-md font-bold p-1 ml-2 bg-purple-500 rounded">C#</p>

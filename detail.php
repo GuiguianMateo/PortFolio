@@ -22,10 +22,10 @@
             <p class="text-center text-5xl font-semibold my-20">Event-App</p>
             <section class="w-fit mx-auto grid grid-cols-1 gap-8 md:gap-28">
                 <div>
-                    <p class="text-3xl m-5">Context</p>
+                    <p class="text-3xl m-5">Contexte</p>
                     <div class="xl:flex gap-6">
-                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, je suis actuellement en <b>stage au Chantiers de l'Atlantique</b> à St Nazaire.
-                           Etant une grosse société comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers <b>organise des séminaires pour leurs employés</b>, notamment des croisières.
+                        <p class="max-w-4xl text-lg border rounded p-2">Durant la réalisation de cette application, j'étais en <b>stage aux Chantiers de l'Atlantique</b> à St Nazaire.
+                           Etant une société importante comportant plus de 3500 employés en interne et 2 fois plus externe, les Chantiers <b>organisent des séminaires pour leurs employés</b>, notamment des croisières.
                         </p>
                         <img class="rounded-md mx-auto my-5 w-80" src="./assets/img/chantiers-logo.png">                                               
                     </div>
@@ -39,7 +39,7 @@
                             <li>Formation sur Django Python</li>
                             <li>Création d'une Base de Données</li>
                             <li>Mise en place d'une authentification</li>
-                            <li>Ajout de rôles (Admin / COM / Gestionaires)</li>
+                            <li>Ajout des rôles (Admin / COM / Gestionaires)</li>
                             <li>Création de maquettes</li>
                             <li>Réalisation du CRUD pour les Invités / Groupes / Evenements</li>
                             <li>Mise en place du css -> Maquettes</li>
@@ -67,9 +67,9 @@
                         <ul class="max-w-4xl mx-auto xl:my-auto my-5 pl-8 xl:pl-0 text-lg list-disc">
                             <li>Mission 1: Imposé par l'entreprise / durée d'une semaine</li>
                             <li>Mission 2: 3 versions / mise en commun -> modification -> validation</li>
-                            <li>Mission 3: Module implenter dans django "contrib.auth" / Difficulté: moyenne</li>
+                            <li>Mission 3: Module implanté dans django "contrib.auth" / Difficulté: moyenne</li>
                             <li>Mission 4: Identification des rôles utiles -> initialisation -> application aux groupes</li>
-                            <li>Mission 5: Créeation de 3 maquettes -> 1/2 jours / présentation oral à la COM</li>
+                            <li>Mission 5: Création de 3 maquettes -> 1/2 jours / présentation oral à la COM</li>
                             <li>Mission 6: 1er framework / relation par formulaire avec db -> Difficile</li>
                             <li>Mission 7: Suivis des maquettes validées / style simple</li>
                         </ul>
@@ -78,9 +78,9 @@
 
                 <div>
                     <p class="text-3xl m-5">Bilan</p>
-                    <div class="xl:flex">
-                        <p class="max-w-4xl text-lg border rounded p-2">Sur ce stage de 7 semaine je n'ai pas pu terminer mon developpement, aujoud'hui l'application à été reprise par une autre sociétée, je n'ai donc pas la version final du projet.
-                            D'après mon avancer dans le projet ainsi que les fonctionalitées ajouter, mon maître de stage était satisfait de mon travail et rentrait dans ses attentes.  
+                    <div class="xl:flex mb-20">
+                        <p class="max-w-4xl text-lg border rounded p-2">Sur ce stage de 7 semaines je n'ai pas pu terminer mon projet, aujoud'hui l'application à été reprise par une autre société, je n'ai donc pas la version finale du projet.
+                            D'après mon avancée dans le projet ainsi que les fonctionalités ajoutées, mon maître de stage était satisfait de mon travail et correspondait à ses attentes.  
                         </p>
                     </div>
                 </div>
@@ -92,10 +92,10 @@
             <p class="text-center text-5xl font-semibold my-20">Cms-Gestion</p>
             <section class="w-fit mx-auto grid grid-cols-1 gap-8 md:gap-28">
                 <div>
-                    <p class="text-3xl m-5">Context</p>
+                    <p class="text-3xl m-5">Contexte</p>
                     <div class="xl:flex gap-6">
-                        <p class="max-w-4xl text-lg my-auto">Cette application à été réalisée en <b>3 grosses parties</b> pour les évaluations de laravel, à partir d'octobre jusqu'à decembre nous avons reçu des sujets déférents.
-                            Pour ma part c'était de <b>crée un CMS</b> (système de gestionaire de contenu) avec différentes spécificités.
+                        <p class="max-w-4xl text-lg my-auto">Cette application à été réalisée en <b>3 grandes parties</b> pour les évaluations de laravel, d'octobre jusqu'à décembre nous avons reçu des sujets différents.
+                            Pour ma part c'était de <b>créer un CMS</b> (système de gestionaire de contenu) avec différentes spécificités.
                         </p>
                         <img class="rounded-md mx-auto w-80" src="./assets/img/cms.jpg">                                               
                     </div>
@@ -106,7 +106,7 @@
                     <div class="xl:flex gap-40">
                         <img class="rounded-md h-56" src="./assets/img/menucms.png">
                         <ol class="max-w-4xl mx-auto my-5 pl-8 xl:pl-0 text-lg list-decimal">
-                            <li>Création d'une base de données</li>
+                            <li>Création d'une Base de Données</li>
                             <li>Mise en place du CRUD (Menus/Sous-menus/Pages) + repository</li>
                             <li>Ajout de breeze et de tinker</li>
                             <li>Mise en place du système de langue Anglais/Français</li>
@@ -140,17 +140,18 @@
                             <li>Mission 2: Prise en main d'un framework avec MVC -> Base de l'appli</li>
                             <li>Mission 3: Différent de Django -> système d'auth auto / Rôles facile d'utilisation</li>
                             <li>Mission 4: Manuellement ajout mot pour mot en anglais et traduction / bouton switch</li>
-                            <li>Mission 5: Simulateur de boite mail(MailTrap) -> bloque son adresse / envoie de mail auto</li>
-                            <li>Mission 6: Formulaire / button réecris plusieurs fois / components -> écrit 1 fois avec variable</li>
-                            <li>Mission 7: Vérifie tout le site(Permissions/fonctions/accessibilité) -> renvoie le resultat</li>
+                            <li>Mission 5: Simulateur de boite mail (MailTrap) -> bloque son adresse / envoie de mail auto</li>
+                            <li>Mission 6: Formulaire / button écrits plusieurs fois / components -> écrit 1 fois avec variable</li>
+                            <li>Mission 7: Vérifie tout le site (Permissions / fonctions / accessibilité) -> renvoie le resultat</li>
                         </ul>
                     </div>
                 </div>
 
                 <div>
                     <p class="text-3xl m-5">Bilan</p>
-                    <div class="xl:flex">
-                        <p class="max-w-4xl text-lg border rounded p-2">Le projet est actuellement
+                    <div class="xl:flex mb-20">
+                        <p class="max-w-4xl text-lg border rounded p-2">Avec les conditions données, le projet est actuellement terminé. 
+                            Avec une durée totale de 3 mois réalisée par période, il a également fallu que nous réussissions les évaluations précédentes, car elles servaient de support pour les suivantes. 
                         </p>
                     </div>
                 </div>

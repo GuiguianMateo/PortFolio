@@ -27,9 +27,9 @@
                         <img src="assets/img/call.png" class="hidden sm:block mr-4 my-auto">
                         0659086613
                     </a>
-                    <a  href="mailto:mateo.guiguian@orange.fr" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
+                    <a  href="mailto:mateo.guiguian04@orange.fr" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/email.png" class="hidden sm:block mr-4 my-auto">
-                        <p class="">mateo.guiguian@orange.fr</p>
+                        <p class="">mateo.guiguian04@orange.fr</p>
                     </a>
                 </div>                                                      
 
