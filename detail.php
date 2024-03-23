@@ -4,7 +4,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>Projet</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="bg-blue-1500 text-white">
