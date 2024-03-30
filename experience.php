@@ -3,67 +3,160 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio-Experience</title>
+    <title>Experiences</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
-    <div>
-        <div class="my-40">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim laboriosam officia, totam dolorum magni ipsam voluptatum, adipisci necessitatibus consectetur veritatis beatae provident sint. Laboriosam necessitatibus asperiores numquam commodi vitae sit.</p>
-        </div>
+    <div id="project" class="text-center my-40 text-5xl font-semibold">
+            <p>Expériences Professionelles</p>
+    </div>
 
+    <div>
         <section class="mx-auto grid grid-cols-1 md:grid-cols-2 my-40 gap-20 md:gap-0">
-            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 border-white hover:border-sky-800 border-2 rounded-md p-4">
-                <h1 class="text-center">Le Duc d'Aiguillon</h1>
-                <p>Le relais du Duc d'Aiguillon une crèperie coté dans le centre du croisic, j'y ai travailler durant toute la saison d'été precédent mon BTS (2022).
-                   Durant cette periode j'ai pu établir mon propre rapport à la clientelle, "En gros il me donnais des truc à faire et je trouvais le meilleurs moyens d'accèder à leurs requete + mise dans une bonne situation/à l'aise"
+            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
+                <p>Le relais du Duc d'Aiguillon est une crèperie cotée dans le centre du croisic, j'y ai travaillé durant toute la saison d'été precédent mon BTS (2022).
+                   Durant cette période j'ai pû établir ma propre approche à la clientelle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire son besoins
                 </p> 
             </div>
             
-            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 border-white hover:border-sky-800 border-2 rounded-md p-4">
-                <h1 class="text-center">Les Albatros</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Soluta similique quia fuga nihil vel quae assumenda nesciunt doloribus, nobis aspernatur nulla? Ex, rem odit odio quidem quae minima voluptatem neque.</p> 
+            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
+                <p>L'année suivante, durant 2 mois et demi j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                    Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueil pendant 1 semaine plusieurs acteurs / réalisateurs connu en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres.</p> 
             </div>
         </section>
 
-        <div class="mx-auto bg-red-500">
-            <p>projets</p>
+        <div id="project" class="text-center text-5xl font-semibold">
+            <p>Projets</p>
         </div>
+
+        <section class="w-fit mx-auto my-20 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-8 md:gap-20">
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/chantiers.png">
+                    <p class="flex justify-center my-2 text-xl">EventApp</p>
+                    <p class="ml-2">Application intene pour l'aide à la gestion de séminaire pour la "Communication"</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-red-500 rounded">Html</p>
+                        <p class="text-center text-md font-bold p-1 bg-blue-500 rounded">Css</p>
+                        <p class="text-center text-md font-bold p-1 bg-green-500 rounded">Django/Python</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=EventApp" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/laravelcms.png">
+                    <p class="flex justify-center my-2 text-xl">CMS Gestion</p>
+                    <p class="ml-2">Application web permettant la gestion d'un site</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-red-500 rounded">Html</p>
+                        <p class="text-center text-md font-bold p-1 bg-blue-500 rounded">Css</p>
+                        <p class="text-center text-md font-bold p-1 bg-red-500 rounded">php/Laravel</p>
+
+                    </div>
+                </div>
+                <a href="detail.php?nom=CmsGestion" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+                        
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2 text-xl">Marsoins</p>
+                    <p class="ml-2">Application mobile qui centralise des actions et les manipule</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-sky-950 rounded">Java Android</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=Marsoins" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+   
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2 text-xl">ChatDevops</p>
+                    <p class="ml-2">Chat public en direct avec une protection contre les cyber-attaques</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-red-500 rounded">Html</p>
+                        <p class="text-center text-md font-bold p-1 bg-blue-500 rounded">Css</p>
+                        <p class="text-center text-md font-bold p-1 bg-yellow-500 rounded">Javascript</p>
+                        <p class="text-center text-md font-bold p-1 bg-red-500 rounded">php/Laravel</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=ChatDevops" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2 text-xl">MégaCasting</p>
+                    <p class="ml-2">Application lourde pour la gestion et la création de casting</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-purple-500 rounded">C#</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=MegaCasting" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+
             
-        <div class="max-w-xl mx-auto my-20">
+            <div class="duration-300">
+                <div class="max-w-80 border rounded">
+                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <p class="flex justify-center my-2 text-xl">Formulaire Validation</p>
+                    <p class="ml-2">Formulaire de validation complet</p>
+                    <hr>
+                    <div class="flex justify-start gap-4 my-2">
+                        <p class="text-center text-md font-bold p-1 ml-2 bg-red-500 rounded">Html</p>
+                        <p class="text-center text-md font-bold p-1 bg-blue-500 rounded">Css</p>
+                        <p class="text-center text-md font-bold p-1 bg-yellow-500 rounded">Javascript</p>
+                    </div>
+                </div>
+                <a href="detail.php?nom=FormJs" class="flex justify-center text-gray-500/50 m-2 hover:text-white">Voir plus</a>
+            </div>
+
+        </section>
+            
+        <!-- <div class="max-w-xl mx-auto my-20">
             <div id="default-carousel" class="relative" data-carousel="static">
-                <div class="overflow-hidden relative h-56 rounded-lg border-2 border-white hover:border-sky-700 sm:h-64 xl:h-80 2xl:h-96">
+                <div class="overflow-hidden relative h-96  rounded-lg border hover:border-sky-700">
                     
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/FormJS.png" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.png" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=FormJS" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=ChatDevops" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=MegaCasting" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=EventApp" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
               
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=Marsoins" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
                     <div class="flex duration-700 ease-in-out" data-carousel-item>
-                        <img src="./assets/img/bateau.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <img src="./assets/img/.jpg" class="block absolute w-full h-full top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
                         <a href="detail.php?nom=CmsGestion" class="mx-auto mt-80 text-xl z-0 ">Voir Plus</a>
                     </div>
 
@@ -102,7 +195,7 @@
                     </span>
                 </button>
             </div>
-        </div>
+        </div> -->
         <script src="https://unpkg.com/flowbite@1.4.0/dist/flowbite.js"></script>
     </div>
 
