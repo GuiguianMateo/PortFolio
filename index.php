@@ -12,7 +12,16 @@
 
     <?php include('components/header.html') ?>
 
-        <p class="flex justify-center my-60 text-5xl">EN DEV</p>
+        <div class="w-full">
+            <div class="sm:flex justify-center">
+                <p class="flex justify-center py-12 sm:m-auto font-serif text-3xl lg:text-5xl xl:text-7xl 2xl:text-9xl italic">Mon</p>
+                <img src="./assets/img/bateau" class="w-full sm:w-1/2">
+            </div>
+            <div class="sm:flex justify-center">
+                <img src="./assets/img/bateau" class="hidden sm:block w-1/2">
+                <p class="flex justify-center py-12 sm:m-auto font-serif text-3xl lg:text-5xl xl:text-7xl 2xl:text-9xl italic">Portfolio</p>
+            </div>
+        </div>
 
     <?php include('components/footer.html') ?>
 

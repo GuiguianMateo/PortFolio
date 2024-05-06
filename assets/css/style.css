@@ -19,4 +19,86 @@
 }
 
 
+.fill-animation-85 {
+    animation: fill-85 5s ease forwards;
+}
+
+@keyframes fill-85 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+
+.fill-animation-75 {
+    animation: fill-75 5s ease forwards;
+}
+
+@keyframes fill-75 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+
+.fill-animation-60 {
+    animation: fill-60 5s ease forwards;
+}
+
+@keyframes fill-60 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+
+.fill-animation-50 {
+    animation: fill-50 5s ease forwards;
+}
+
+@keyframes fill-50 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+
+.fill-animation-40 {
+    animation: fill-40 5s ease forwards;
+}
+
+@keyframes fill-40 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+
+.fill-animation-20 {
+    animation: fill-20 5s ease forwards;
+}
+
+@keyframes fill-20 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 20%;
+    }
+}
 

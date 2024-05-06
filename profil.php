@@ -79,55 +79,55 @@
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/html.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-red-500 h-full rounded-md absolute top-0 left-0" style="width: 85%;"></div>
+                    <div class="bg-red-500 h-full rounded-md absolute top-0 left-0 fill-animation-85"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/css-3.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-blue-500 h-full rounded-md absolute top-0 left-0" style="width: 85%;"></div>
+                    <div class="bg-blue-500 h-full rounded-md absolute top-0 left-0 fill-animation-85"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/laravel.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-gray-500 h-full rounded-md absolute top-0 left-0" style="width: 75%;"></div>
+                    <div class="bg-gray-500 h-full rounded-md absolute top-0 left-0 fill-animation-75"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/js.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-yellow-300 h-full rounded-md absolute top-0 left-0" style="width: 50%;"></div>
+                    <div class="bg-yellow-300 h-full rounded-md absolute top-0 left-0 fill-animation-50"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/python.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-yellow-500 h-full rounded-md absolute top-0 left-0" style="width: 60%;"></div>
+                    <div class="bg-yellow-500 h-full rounded-md absolute top-0 left-0 fill-animation-60"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/csharp.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-purple-400 h-full rounded-md absolute top-0 left-0" style="width: 20%;"></div>
+                    <div class="bg-purple-400 h-full rounded-md absolute top-0 left-0 fill-animation-20"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/java.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-sky-950 h-full rounded-md absolute top-0 left-0" style="width: 40%;"></div>
+                    <div class="bg-sky-950 h-full rounded-md absolute top-0 left-0 fill-animation-20"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/wordpress.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-sky-700 h-full rounded-md absolute top-0 left-0" style="width: 35%;"></div>
+                    <div class="bg-sky-700 h-full rounded-md absolute top-0 left-0 fill-animation-40"></div>
                 </div>
             </div>
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/serveur-sql.png">
                 <div class="my-auto rounded-md border h-4 w-64 relative">
-                    <div class="bg-gray-200 h-full rounded-md absolute top-0 left-0" style="width: 85%;"></div>
+                    <div class="bg-gray-200 h-full rounded-md absolute top-0 left-0 fill-animation-85"></div>
                 </div>
             </div>                
         </section>
