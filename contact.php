@@ -6,6 +6,7 @@
     <title>Contact</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/logo/favicon.ico">
 </head>
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
@@ -15,7 +16,7 @@
             <h1 class="text-xl">Voici tous les renseignements que <br>vous avez besoin ci-dessous</h1>
         </div>
 
-        <div class=" justify-center my-40 px-0 sm:px-10 lg:py-10 mx-5 lg:flex justify-center lg:gap-28 xl:gap-40 xl:mx-28">
+        <div class="justify-center my-40 px-0 sm:px-10 lg:py-10 mx-5 lg:flex justify-center lg:gap-28 xl:gap-40 xl:mx-28">
             <div >
                 <img class="rounded-full bg-white w-20 h-20 mx-auto lg:w-40 lg:h-40 lg:mt-5 xl:w-60 xl:h-60 2xl:w-80 2xl:h-80" src="assets/img/profile-user.png" >      
             </div>
@@ -25,22 +26,22 @@
                 <div class="my-auto mx-auto md:mx-0 max-w-80 md:max-w-max">
                     <a  href="tel:0659086613" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/call.png" class="hidden sm:block mr-4 my-auto">
-                        0659086613
+                        <p class="my-auto">0659086613</p>
                     </a>
                     <a  href="mailto:mateo.guiguian04@orange.fr" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/email.png" class="hidden sm:block mr-4 my-auto">
-                        <p class="">mateo.guiguian04@orange.fr</p>
+                        <p class="my-auto">mateo.guiguian04@orange.fr</p>
                     </a>
                 </div>                                                      
 
                 <div class="my-auto mx-auto md:mx-0 max-w-80 md:max-w-max">
                     <a  href="https://www.google.com/maps?q=iia+st+nazaire&FORM=HDRSC6&cp=47.252261%7E-2.258434&lvl=16.9" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/maps-and-flags.png" class="hidden sm:block mr-4 my-auto">
-                        IIA St Nazaire    
+                        <p class="my-auto">IIA St Nazaire   </p> 
                    </a>
                     <a  href="https://www.google.com/maps?q=st+reine+de+bratagne+france&FORM=HDRSC6&cp=47.440591%7E-2.193845&lvl=13.6" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/map.png" class="hidden sm:block mr-4 my-auto">
-                        Ste Reine de Bretagne
+                        <p class="my-auto">Ste Reine de Bretagne</p>
                     </a>
                 </div>
             </div>

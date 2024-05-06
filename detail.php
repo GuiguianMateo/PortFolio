@@ -6,6 +6,9 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Projet</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/logo/favicon.ico">
+
+
 </head>
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
