@@ -19,15 +19,16 @@
         <section class="mx-auto grid grid-cols-1 md:grid-cols-2 my-40 gap-20 md:gap-0">
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                 <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
-                <p>Le relais du Duc d'Aiguillon est une crèperie cotée dans le centre du croisic, j'y ai travaillé durant toute la saison d'été precédent mon BTS (2022).
-                   Durant cette période j'ai pû établir ma propre approche à la clientelle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire son besoins
+                <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
+                    Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
                 </p> 
             </div>
             
             <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                 <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                <p>L'année suivante, durant 2 mois et demi j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
-                    Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueil pendant 1 semaine plusieurs acteurs / réalisateurs connu en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres.</p> 
+                <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                    Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres célébrités.
+                </p> 
             </div>
         </section>
 
@@ -69,7 +70,7 @@
                         
             <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/avs.png">
                     <p class="flex justify-center my-2 text-xl">Marsoins</p>
                     <p class="ml-2">Application mobile qui centralise des actions et les manipule</p>
                     <hr>
@@ -98,7 +99,7 @@
 
             <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/megacasting.jpg">
                     <p class="flex justify-center my-2 text-xl">MégaCasting</p>
                     <p class="ml-2">Application lourde pour la gestion et la création de casting</p>
                     <hr>
@@ -112,7 +113,7 @@
             
             <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/formulairejs.png">
                     <p class="flex justify-center my-2 text-xl">Formulaire Validation</p>
                     <p class="ml-2">Formulaire de validation et de vérification complet</p>
                     <hr>

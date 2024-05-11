@@ -102,3 +102,40 @@
     }
 }
 
+
+/* Animation pour les diplômes */
+@keyframes arrivee {
+    from {
+        transform: translateX(200%); /* Déplacez les éléments hors de l'écran à droite */
+    }
+    to {
+        opacity: 1; /* Définir l'opacité à 1 à la fin de l'animation */
+        transform: translateX(0); /* Ramenez les éléments à leur position normale */
+    }
+}
+
+
+/* Appliquer l'animation aux diplômes */
+.diplomes-list .diplome:nth-child(1) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+}
+
+/* Ajuster le délai d'animation pour chaque élément */
+.diplomes-list .diplome:nth-child(2) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 0.25s; /* Délai de 0,5 seconde pour le premier élément */
+}
+
+.diplomes-list .diplome:nth-child(3) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 0.5s; /* Délai de 1 seconde pour le deuxième élément */
+}
+
+.diplomes-list .diplome:nth-child(4) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 0.75s; /* Délai de 1,5 seconde pour le troisième élément */
+}
