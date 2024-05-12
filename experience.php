@@ -17,18 +17,43 @@
 
     <div>
         <section class="mx-auto grid grid-cols-1 md:grid-cols-2 my-40 gap-20 md:gap-0">
-            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
-                <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
-                    Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
-                </p> 
+            <div>
+                <h1 class="flex justify-center text-3xl mb-20">Saisons d'été</h1>   
+                <section class="mx-auto grid grid-cols-1 gap-20 md:gap-32">
+                    <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                        <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
+                        <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                            Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France.
+                        </p> 
+                    </div>
+
+                    <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                        <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
+                        <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
+                            Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
+                        </p> 
+                    </div>
+                </section>
             </div>
-            
-            <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
-                    Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France. Notamment Kev Adams, Gérard Jugnot et pleins d'autres célébrités.
-                </p> 
+ 
+
+            <div>
+                <h1 class="flex justify-center text-3xl mb-20">Stages</h1>
+                <section class="mx-auto grid grid-cols-1 gap-20 md:gap-32">
+                    <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                        <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
+                        <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                            Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France.
+                        </p> 
+                    </div>
+
+                    <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
+                        <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
+                        <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
+                            Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
+                        </p> 
+                    </div>
+                </section>
             </div>
         </section>
 

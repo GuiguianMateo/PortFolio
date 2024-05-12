@@ -24,12 +24,13 @@
                     
             <img src="assets/img/way.png" class="float-left my-auto mr-8">
             <p>
-                Mon parcours éducatif a débuté au collège La Fontaine à Missillac où j'ai exploré diverses matières. Réalisant ma seconde générale à Savenay, je me suis dirigé au lycée Aristide Briand à Saint-Nazaire pour passer en bac techno STI2D.
+                Mon parcours éducatif a débuté a ma seconde générale à Savenay, je me suis ensuite dirigé au lycée Aristide Briand à Saint-Nazaire pour passer en bac techno STI2D.
                  J'ai approfondi mes connaissances, notamment dans les matières scientifiques. Actuellement étudiant en 2ème années de BTS SIO au campus IIA à Saint-Nazaire, je me spécialise en développement informatique.
             </p>
         </div>
 
-        <div class="flex justify-center my-40 pb-10 gap-20">
+        <h1 class="flex justify-center text-4xl">Diplomes</h1>
+        <div class="flex justify-center my-20 pb-10 gap-20">
             <div class="border border-sky-700 hidden sm:block"></div>
             <ul class="list-none border-2 border-blue-1500 diplomes-list">
                 <li class="p-5 relative cursor-pointer diplome hover:bg-gray-500/50">
@@ -75,7 +76,7 @@
         </div>
  
 
-
+        <h1 class="flex justify-center text-4xl my-32">Compétences</h1>
         <section id="skills-section" class="w-fit mx-auto grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 gap-8 md:gap-32 mt-10 mb-5">
             <div class="flex gap-6">
                 <img class="my-auto" src="./assets/img/html.png">

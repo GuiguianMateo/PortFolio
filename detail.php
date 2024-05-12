@@ -34,9 +34,14 @@
             ?>
                 <a href="https://github.com/GuiguianMateo/devops" target="_blank" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Github</a>
             <?php  
-            }else{
+            }elseif($nom == "EventApp"){
             ?>
                 <a href="detail.php?nom=EventApp" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Privé</a>
+            <?php
+            }
+            else{
+            ?>
+                <a href="detail.php?nom=Marsoins" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Privé</a>
             <?php
             }
         ?>
