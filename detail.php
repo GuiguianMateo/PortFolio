@@ -6,17 +6,48 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>Projet</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" href="./assets/logo/favicon.ico">
+
+
 </head>
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
-    <div class="text-sm m-5 md:text-lg">
+    <div class="text-sm m-5 md:text-lg flex justify-between">
         <a href="experience.php#project" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Retour</a>
-    </div>
-
-    <?php
+        <?php
         $nom = $_REQUEST['nom'];
         
+            if($nom == "CmsGestion"){
+            ?>
+                <a href="https://github.com/GuiguianMateo/Laravel-10-Blanc" target="_blank" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Github</a>
+            <?php  
+            }elseif($nom == "FormJs"){
+            ?>
+                <a href="https://github.com/GuiguianMateo/formulaire_JS" target="_blank" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Github</a>
+            <?php  
+            }elseif($nom == "MegaCasting"){
+            ?>
+                <a href="https://github.com/NathanLegrand57/MegaCasting" target="_blank" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Github</a>
+            <?php  
+            }elseif($nom == "ChatDevops"){
+            ?>
+                <a href="https://github.com/GuiguianMateo/devops" target="_blank" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Github</a>
+            <?php  
+            }elseif($nom == "EventApp"){
+            ?>
+                <a href="detail.php?nom=EventApp" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Privé</a>
+            <?php
+            }
+            else{
+            ?>
+                <a href="detail.php?nom=Marsoins" class="hover:bg-gray-500/50 px-3 py-1 rounded md:px-5 py-3">Répertoir Privé</a>
+            <?php
+            }
+        ?>
+    </div>
+
+    <?php        
         if($nom == "EventApp"){
         ?>
             <p class="text-center text-5xl font-semibold my-20">Event-App</p>
@@ -155,7 +186,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+        </section>
 
         <?php    
 

@@ -19,4 +19,125 @@
 }
 
 
+.fill-animation-85 {
+    animation: fill-85 5s ease forwards;
+}
 
+@keyframes fill-85 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+
+
+.fill-animation-75 {
+    animation: fill-75 5s ease forwards;
+}
+
+@keyframes fill-75 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+
+.fill-animation-60 {
+    animation: fill-60 5s ease forwards;
+}
+
+@keyframes fill-60 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+
+
+.fill-animation-50 {
+    animation: fill-50 5s ease forwards;
+}
+
+@keyframes fill-50 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50%;
+    }
+}
+
+
+.fill-animation-40 {
+    animation: fill-40 5s ease forwards;
+}
+
+@keyframes fill-40 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 40%;
+    }
+}
+
+
+.fill-animation-20 {
+    animation: fill-20 5s ease forwards;
+}
+
+@keyframes fill-20 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 20%;
+    }
+}
+
+
+/* Animation pour les diplômes */
+@keyframes arrivee {
+    from {
+        transform: translateY(450%); /* Déplacez les éléments hors de l'écran à droite */
+    }
+    to {
+        opacity: 1; /* Définir l'opacité à 1 à la fin de l'animation */
+        transform: translateY(0); /* Ramenez les éléments à leur position normale */
+    }
+}
+
+
+/* Appliquer l'animation aux diplômes */
+.diplomes-list .diplome:nth-child(4) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 2s; /* Délai de 0,5 seconde pour le premier élément */
+
+}
+
+/* Ajuster le délai d'animation pour chaque élément */
+.diplomes-list .diplome:nth-child(3) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 2.25s; /* Délai de 0,5 seconde pour le premier élément */
+}
+
+.diplomes-list .diplome:nth-child(2) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 2.5s; /* Délai de 1 seconde pour le deuxième élément */
+}
+
+.diplomes-list .diplome:nth-child(1) {
+    opacity: 0;
+    animation: arrivee 2s ease forwards; /* Animation d'arrivée */
+    animation-delay: 2.75s; /* Délai de 1,5 seconde pour le troisième élément */
+}
