@@ -11,7 +11,7 @@
 <body class="bg-blue-1500 text-white">
     <?php include('components/header.html') ?>
 
-    <div id="project" class="text-center my-40 text-5xl font-semibold">
+    <div class="text-center my-40 text-5xl font-semibold">
             <p>Expériences Professionelles</p>
     </div>
 
@@ -21,36 +21,35 @@
                 <h1 class="flex justify-center text-3xl mb-20">Saisons d'été</h1>   
                 <section class="mx-auto grid grid-cols-1 gap-20 md:gap-32">
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                        <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                        <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
-                            Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France.
+                        <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
+                        <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
+                            Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
                         </p> 
                     </div>
 
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                        <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
-                        <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
-                            Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
+                        <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
+                        <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
+                            Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France.
                         </p> 
                     </div>
                 </section>
             </div>
  
-
             <div>
                 <h1 class="flex justify-center text-3xl mb-20">Stages</h1>
                 <section class="mx-auto grid grid-cols-1 gap-20 md:gap-32">
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                        <h1 class="text-center text-lg font-bold p-1">Les Albatros</h1>
-                        <p>L'année suivante, durant deux mois et demi, j'ai travaillé en tant que serveur / runneur aux Albatros, c'est un restaurant de plage à la Baule. 
-                            Ayant une très bonne réputation, ils sont en partenariat avec le cinéma de la Baule et accueillent pendant une semaine plusieurs acteurs / réalisateurs connus en France.
+                        <h1 class="text-center text-lg font-bold p-1">Les chantiers de l'atlantique </h1>
+                        <p>Lors de ma première année de BTS, j'ai réalisé un stage de sept semaines dans la société des chantiers de l'Atlantique. 
+                            J'ai dû effectuer une application interne afin d'organiser les séminaires pour les employés et pour réduire la perte de temps consacrée à la gestion des séminaires.
                         </p> 
                     </div>
 
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
-                        <h1 class="text-center text-lg font-bold p-1">Le Duc d'Aiguillon</h1>
-                        <p>Le relais du Duc d'Aiguillon est une crêperie cotée dans le centre du Croisic, j'y ai travaillé durant toute la saison d'été précédent mon BTS (2022).
-                            Durant cette période, j'ai pu établir ma propre approche à la clientèle, ainsi qu'étudier la demande du client et la traiter au mieux pour satisfaire ses besoins.
+                        <h1 class="text-center text-lg font-bold p-1">A vos soins</h1>
+                        <p>Ensuite, pour ma seconde année de BTS, j'ai effectué mon stage dans une association de santé nommée À vos soins.
+                            Chez À vos soins, j'ai dû aider le développeur à réaliser des maintenances et des mises à jours sur l'application principale de l'association durant cinq semain
                         </p> 
                     </div>
                 </section>

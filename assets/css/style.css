@@ -119,7 +119,7 @@
 .diplomes-list .diplome:nth-child(4) {
     opacity: 0;
     animation: arrivee 2s ease forwards; /* Animation d'arrivée */
-    animation-delay: 7s; /* Délai de 0,5 seconde pour le premier élément */
+    animation-delay: 2s; /* Délai de 0,5 seconde pour le premier élément */
 
 }
 
@@ -127,17 +127,17 @@
 .diplomes-list .diplome:nth-child(3) {
     opacity: 0;
     animation: arrivee 2s ease forwards; /* Animation d'arrivée */
-    animation-delay: 7.25s; /* Délai de 0,5 seconde pour le premier élément */
+    animation-delay: 2.25s; /* Délai de 0,5 seconde pour le premier élément */
 }
 
 .diplomes-list .diplome:nth-child(2) {
     opacity: 0;
     animation: arrivee 2s ease forwards; /* Animation d'arrivée */
-    animation-delay: 7.5s; /* Délai de 1 seconde pour le deuxième élément */
+    animation-delay: 2.5s; /* Délai de 1 seconde pour le deuxième élément */
 }
 
 .diplomes-list .diplome:nth-child(1) {
     opacity: 0;
     animation: arrivee 2s ease forwards; /* Animation d'arrivée */
-    animation-delay: 7.75s; /* Délai de 1,5 seconde pour le troisième élément */
+    animation-delay: 2.75s; /* Délai de 1,5 seconde pour le troisième élément */
 }

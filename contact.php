@@ -18,11 +18,10 @@
 
         <div class="justify-center my-40 px-0 sm:px-10 lg:py-10 mx-5 lg:flex justify-center lg:gap-28 xl:gap-40 xl:mx-28">
             <div >
-                <img class="rounded-full bg-white w-20 h-20 mx-auto lg:w-40 lg:h-40 lg:mt-5 xl:w-60 xl:h-60 2xl:w-80 2xl:h-80" src="assets/img/profile-user.png" >      
+                <img class="rounded-full bg-white w-20 h-20 mx-auto lg:w-40 lg:h-40 lg:mt-5 xl:w-60 xl:h-60 2xl:w-80 2xl:h-80" src="assets/img/moimême.jpg" >      
             </div>
 
             <div class="md:flex justify-center ">
-
                 <div class="my-auto mx-auto md:mx-0 max-w-80 md:max-w-max">
                     <a  href="tel:0659086613" class="bg-gray-500/50 hover:text-sky-800 flex rounded-md m-5 p-5">
                         <img src="assets/img/call.png" class="hidden sm:block mr-4 my-auto">
