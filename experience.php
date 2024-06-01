@@ -42,14 +42,14 @@
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                         <h1 class="text-center text-lg font-bold p-1">Les chantiers de l'atlantique </h1>
                         <p>Lors de ma première année de BTS, j'ai réalisé un stage de sept semaines dans la société des chantiers de l'Atlantique. 
-                            J'ai dû effectuer une application interne afin d'organiser les séminaires pour les employés et pour réduire la perte de temps consacrée à la gestion des séminaires.
+                            J'ai dû effectuer une application interne afin d'organiser les séminaires pour les employés, afin de réduire la perte de temps consacrée à la gestion de cette dernière.
                         </p> 
                     </div>
 
                     <div class="mx-auto w-8/12 h-auto bg-gray-500/50 hover:border-sky-800 border-2 rounded-md p-4">
                         <h1 class="text-center text-lg font-bold p-1">A vos soins</h1>
                         <p>Ensuite, pour ma seconde année de BTS, j'ai effectué mon stage dans une association de santé nommée À vos soins.
-                            Chez À vos soins, j'ai dû aider le développeur à réaliser des maintenances et des mises à jours sur l'application principale de l'association durant cinq semain
+                            Chez À vos soins, j'ai dû aider le développeur à réaliser des maintenances et des mises à jours sur l'application principale de l'association durant cinq semaines.
                         </p> 
                     </div>
                 </section>
@@ -107,7 +107,7 @@
    
             <div class="duration-300">
                 <div class="max-w-80 border rounded">
-                    <img class="m-auto" src="./assets/img/bateau.jpg">
+                    <img class="m-auto" src="./assets/img/chatDevops.png">
                     <p class="flex justify-center my-2 text-xl">ChatDevops</p>
                     <p class="ml-2">Chat public en direct avec une protection contre les cyber-attaques</p>
                     <hr>
